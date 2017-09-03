@@ -1,0 +1,37 @@
+/*
+** Edit Modal
+*/
+.edit-modal-window .modal-dialog {
+	width: 90%;
+}
+
+.edit-modal-window .modal-body {
+	padding: 0;
+}
+
+.edit-modal-window .edit-panel {
+	background-color: #F1F1F1;
+	padding: 0 35px 0 35px;
+}
+
+.edit-modal-window .preview-field-panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.edit-modal-window .preview-field-panel form {
+	padding-right: 20px;
+}
+
+.edit-modal-window .preview-field {
+	resize: vertical;
+}
+
+.admin-form .ui-sortable-placeholder {
+	visibility: visible !important;
+	border: none;
+	padding:1px;
+  background: #000;
+	background:rgba(0, 0, 0, 0.5) !important;
+}
