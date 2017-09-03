@@ -79,7 +79,11 @@
 				signupDisabled | safe
 			}
 		};
-		var socketPort = false;
+		var socketPort = {
+			{
+				socketPort | safe
+			}
+		} || false;
 		var socketUrl = "{{socketUrl | safe}}" || false;
 		var subdomainsDisabled = {
 			{
